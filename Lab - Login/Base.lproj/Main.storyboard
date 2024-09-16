@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FkI-xY-DZ8">
-                                <rect key="frame" x="0.0" y="259" width="325" height="44"/>
+                                <rect key="frame" x="34" y="259" width="325" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cGv-R3-CAM">
                                         <rect key="frame" x="0.0" y="0.0" width="325" height="44"/>
@@ -48,11 +48,9 @@
                         <constraints>
                             <constraint firstItem="FkI-xY-DZ8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2hi-mo-eAA"/>
                             <constraint firstItem="FkI-xY-DZ8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="6RR-2x-VOM"/>
-                            <constraint firstItem="FkI-xY-DZ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6fA-2x-eHE"/>
                             <constraint firstItem="FkI-xY-DZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bWp-XX-A71"/>
                             <constraint firstItem="FkI-xY-DZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d9D-T6-vvy"/>
                             <constraint firstItem="FkI-xY-DZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eFR-XG-U9J"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FkI-xY-DZ8" secondAttribute="trailing" id="gID-Km-SMl"/>
                         </constraints>
                     </view>
                 </viewController>
