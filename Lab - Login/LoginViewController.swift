@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        segue.destination.title = usernameTextField.text
     }
     
 }
