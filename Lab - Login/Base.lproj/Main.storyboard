@@ -53,7 +53,6 @@
                                                         </buttonConfiguration>
                                                         <connections>
                                                             <action selector="onLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BWs-Na-64M"/>
-                                                            <segue destination="mkd-gM-bY9" kind="show" id="BdO-MZ-4yC"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXn-ui-r37">
@@ -143,9 +142,6 @@
             <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="EqQ-Og-gdA"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="DNet Logo" width="108" height="109"/>
     </resources>

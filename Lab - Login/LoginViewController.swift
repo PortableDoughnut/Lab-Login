@@ -22,16 +22,19 @@ class LoginViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        segue.destination.title = usernameTextField.text
+        
     }
     
     @IBAction func onLoginButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "segueLanding", sender: sender)
     }
     
     @IBAction func onForgotUsernameButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "segueLanding", sender: sender)
     }
     
     @IBAction func onForgotPasswordButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "segueLanding", sender: sender)
     }
     
 }
