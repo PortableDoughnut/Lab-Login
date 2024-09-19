@@ -22,7 +22,16 @@ class LoginViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let sender = sender as? UIButton else { return }
         
+        switch sender {
+            case forgotPasswordButton:
+                segue.destination.title = "Forgot Password"
+            case forgotUsernameButton:
+                segue.destination.title = "Forgot Username"
+            default:
+                segue.destination.title = usernameTextField.text
+        }
     }
     
     @IBAction func onLoginButtonPressed(_ sender: Any) {
