@@ -25,5 +25,14 @@ class LoginViewController: UIViewController {
         segue.destination.title = usernameTextField.text
     }
     
+    @IBAction func onLoginButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func onForgotUsernameButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func onForgotPasswordButtonPressed(_ sender: Any) {
+    }
+    
 }
 
