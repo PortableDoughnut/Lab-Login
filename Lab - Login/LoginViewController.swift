@@ -9,6 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var forgotUsernameButton: UIButton!
+    @IBOutlet weak var forgotPasswordButton: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginInButton: UIButton!
     

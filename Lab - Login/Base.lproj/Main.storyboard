@@ -89,6 +89,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="OPB-W9-bjq"/>
                     <connections>
+                        <outlet property="forgotPasswordButton" destination="qqD-oZ-nF2" id="2es-0l-CmX"/>
+                        <outlet property="forgotUsernameButton" destination="zXn-ui-r37" id="gcu-oq-jjJ"/>
                         <outlet property="loginInButton" destination="g8T-zM-MpV" id="W04-MP-vRf"/>
                         <outlet property="passwordTextField" destination="1uj-Bc-SQh" id="nYe-hW-r1X"/>
                         <outlet property="usernameTextField" destination="A17-jH-cq2" id="nRW-hN-rpn"/>
